@@ -12,11 +12,6 @@ h2
     font-size: 20px;    
 }
 
-.image_separation
-{
-    
-}
-
 .colorier_mot {color: #BDBDBD;}/*Couleur Material Design*/
 
 .souligner_mot 
@@ -62,10 +57,7 @@ h2
 #photo
 {
     border-radius: 100px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;         
+    margin-top: 25px;
 }
 
 .titre_gauche
