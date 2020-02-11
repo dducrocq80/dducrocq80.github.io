@@ -25,11 +25,13 @@ h4
 .afficher_masquer_nom
 {
     display: none;
+    visibility: hidden;
 }
 
 .afficher_masquer_titre
 {
     display: none;
+    visibility: hidden;
 }
 
 .colorier_mot {color: #BDBDBD;}/*Couleur Material Design*/
@@ -157,7 +159,6 @@ tr, td
         margin-top: auto;
         margin-left: auto;
         margin-right: auto;
-
     }
     
     .afficher_masquer_titre
@@ -170,7 +171,7 @@ tr, td
 
 @media screen and (max-width: 935px) /* Règles CSS petites fenetres */
 {
-         h1, h2
+    h1, h2
     {
         display: none;
     }
@@ -178,6 +179,7 @@ tr, td
     .afficher_masquer_nom
     {
         display:inherit;
+        visibility: inherit;
         font-size: 30px;
         height: 15px;
         margin-bottom: auto;
@@ -189,6 +191,7 @@ tr, td
     .afficher_masquer_titre
     {
         display:inherit;
+        visibility: inherit;
         margin-left: auto;
         margin-right: auto;
     }
