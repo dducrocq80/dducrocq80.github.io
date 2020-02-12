@@ -1,3 +1,7 @@
+*
+{
+    font-family: calibri, Helvetica, Arial, sans-serif;
+}
 h1
 {
     font-size: 30px;
@@ -53,7 +57,7 @@ h4
     flex-direction: column;
     text-align: left;    
     background-color: #BDBDBD; /*Couleur Material Design*/
-    margin-right: 50px;
+    margin-top: 20px;
     width:350px;
 } 
 
@@ -63,7 +67,8 @@ h4
     flex-direction: column;
     text-align: left;
     vertical-align: top;
-    margin-top: 50px;    
+    margin-top: 20px;    
+    margin-left:20px;
     width:500px;
 } 
 
@@ -169,7 +174,7 @@ tr, td
     }
 }
 
-@media screen and (max-width: 935px) /* Règles CSS petites fenetres */
+@media screen and (max-width: 906px) /* Règles CSS petites fenetres */
 {
     h1, h2
     {
