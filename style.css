@@ -39,12 +39,15 @@ h4
 }
 
 .colorier_mot {color: #BDBDBD;}/*Couleur Material Design*/
+
 .colorier_mot_blanc {color: white;}
+
 .souligner_mot 
 {
     text-decoration: underline;
     text-decoration-color:#BDBDBD;/*Couleur Material Design*/    
 }
+
 .souligner_mot_blanc
 {
     text-decoration:underline;
@@ -55,28 +58,22 @@ h4
 {     
     display:inline-flex;        
     flex-direction: column;
+    justify-content: center;
     text-align: left;    
     background-color: #BDBDBD; /*Couleur Material Design*/
     margin-top: 20px;
     width:350px;
-    margin-left: auto;
-    margin-right: auto;
 } 
 
 .bloc_droite
 {     
     display:inline-flex;        
     flex-direction: column;
+    justify-content: center;
     text-align: left;
     vertical-align: top;
-    margin-top: 20px;    
-    /*margin-left:20px;*/
+    margin-top: 20px;        
     width:500px;
-    margin-left: auto;
-    margin-right: auto;
-
-    margin-right: auto;
-
 } 
 
 #paragraphe_gauche
