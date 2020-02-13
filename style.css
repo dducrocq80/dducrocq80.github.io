@@ -43,12 +43,12 @@ h4
 .souligner_mot 
 {
     text-decoration: underline;
-    text-decoration-color:#BDBDBD;/*Couleur Material Design*/
+    text-decoration-color:#BDBDBD;/*Couleur Material Design*/    
 }
 .souligner_mot_blanc
 {
     text-decoration:underline;
-    text-decoration-color:white;
+    text-decoration-color:white;    
 }
 
 .bloc_gauche
@@ -59,6 +59,8 @@ h4
     background-color: #BDBDBD; /*Couleur Material Design*/
     margin-top: 20px;
     width:350px;
+    margin-left: auto;
+    margin-right: auto;
 } 
 
 .bloc_droite
@@ -68,8 +70,13 @@ h4
     text-align: left;
     vertical-align: top;
     margin-top: 20px;    
-    margin-left:20px;
+    /*margin-left:20px;*/
     width:500px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-right: auto;
+
 } 
 
 #paragraphe_gauche
