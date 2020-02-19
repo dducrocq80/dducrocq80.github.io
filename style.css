@@ -62,7 +62,8 @@ h4
     text-align: left;    
     background-color: #BDBDBD; /*Couleur Material Design*/
     margin-top: 20px;
-    width:350px;
+    width:500px;
+    padding: 10px;
 } 
 
 .bloc_droite
@@ -74,6 +75,7 @@ h4
     vertical-align: top;
     margin-top: 20px;        
     width:500px;
+    padding: 10px;
 } 
 
 #paragraphe_gauche
@@ -178,7 +180,7 @@ tr, td
     }
 }
 
-@media screen and (max-width: 906px) /* Règles CSS petites fenetres */
+@media screen and (max-width: 1076px) /* Règles CSS petites fenetres */
 {
     h1, h2
     {
