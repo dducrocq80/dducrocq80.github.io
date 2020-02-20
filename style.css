@@ -178,6 +178,30 @@ tr, td
         margin-left: auto;
         margin-right: auto;
     }
+        .bloc_gauche
+    {     
+        display:inline-flex;        
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;    
+        background-color: #BDBDBD; /*Couleur Material Design*/
+        margin-top: 20px;
+        width: auto;
+        padding: 10px;
+    } 
+
+    .bloc_droite
+    {     
+        display:inline-flex;        
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        vertical-align: top;
+        margin-top: 20px;        
+        width: auto;
+        padding: 10px;
+    } 
+
 }
 
 @media screen and (max-width: 1076px) /* Règles CSS petites fenetres */
@@ -206,5 +230,30 @@ tr, td
         margin-left: auto;
         margin-right: auto;
     }
+    
+    .bloc_gauche
+    {     
+        display:inline-flex;        
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;    
+        background-color: #BDBDBD; /*Couleur Material Design*/
+        margin-top: 20px;
+        width: auto;
+        padding: 10px;
+    } 
+
+    .bloc_droite
+    {     
+        display:inline-flex;        
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        vertical-align: top;
+        margin-top: 20px;        
+        width: auto;
+        padding: 10px;
+    } 
+
 }
 
