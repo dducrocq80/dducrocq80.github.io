@@ -1,7 +1,8 @@
-*
+* /* permet de spécifier des propriétés communes pour toutes les balises */
 {
     font-family: calibri, Helvetica, Arial, sans-serif;
 }
+
 h1
 {
     font-size: 30px;
@@ -26,26 +27,27 @@ h4
     margin-top: -25px;
     margin-bottom: 25px;
 }
-.afficher_masquer_nom
+
+.afficher_masquer_nom /* permet d'afficher ou masquer la zone nom en responsive */
 {
     display: none;
     visibility: hidden;
 }
 
-.afficher_masquer_titre
+.afficher_masquer_titre /* permet d'afficher ou masquer la zone titre en responsive */
 {
     display: none;
     visibility: hidden;
 }
 
-.colorier_mot {color: #BDBDBD;}/*Couleur Material Design*/
+.colorier_mot {color: #BDBDBD;} /*Couleur Material Design*/
 
 .colorier_mot_blanc {color: white;}
 
 .souligner_mot 
 {
     text-decoration: underline;
-    text-decoration-color:#BDBDBD;/*Couleur Material Design*/    
+    text-decoration-color:#BDBDBD; /*Couleur Material Design*/    
 }
 
 .souligner_mot_blanc
@@ -102,7 +104,7 @@ h4
 .titre_gauche
 {
     background-color: black;
-    color: #BDBDBD;/*Couleur Material Design*/
+    color: #BDBDBD; /*Couleur Material Design*/
     text-align: center;
     font-size: 20px;
 }
@@ -118,17 +120,17 @@ h4
     margin-right: 30px;
 }
 
-a
+a /* personnalisation des couleurs des liens */
 {
    color: cornflowerblue; 
 }
 
-a:hover
+a:hover /* personnalisation des couleurs des liens au survol */
 {
     color:yellow;
 }
 
-a:visited
+a:visited /* personnalisation des couleurs des liens après clic */
 {
     color:coral
 }
@@ -137,11 +139,6 @@ a:visited
   {
     color:black;      
   }
-
-/*table
-{
-    border-collapse: collapse        
-}*/
 
 tr, td
 {
@@ -178,7 +175,8 @@ tr, td
         margin-left: auto;
         margin-right: auto;
     }
-        .bloc_gauche
+    
+    .bloc_gauche
     {     
         display:inline-flex;        
         flex-direction: column;
@@ -203,6 +201,7 @@ tr, td
     } 
 
 }
+
 
 @media screen and (max-width: 1076px) /* Règles CSS petites fenetres */
 {
