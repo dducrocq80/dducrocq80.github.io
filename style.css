@@ -123,6 +123,7 @@ article
     color: #BDBDBD; /*Couleur Material Design*/
     text-align: center;
     font-size: 20px;
+    width: 100%;
 }
 
 .titre_droite
