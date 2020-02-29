@@ -157,7 +157,7 @@ tr, td
     text-align: center;
 }
 
-@media all and (max-device-width: 480px) /* Règles CSS pour les mobiles */
+@media all and (max-width: 480px) /* Règles CSS pour les mobiles */
 {
     h1, h2
     {
