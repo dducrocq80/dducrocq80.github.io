@@ -3,6 +3,11 @@
     font-family: calibri, Helvetica, Arial, sans-serif;
 }
 
+body 
+{
+    text-align: center;
+}
+
 h1
 {
     font-size: 30px;
@@ -16,10 +21,9 @@ h2
     font-size: 20px;
 }
 
-h4
+article
 {
-    margin-bottom: auto;
-    margin-top: auto;
+    padding: 10px;
 }
 
 .separateur_hr
@@ -80,25 +84,37 @@ h4
     padding: 10px;
 } 
 
-#paragraphe_gauche
+.bloc_images_loisirs
+{
+    align-self: center;
+}
+
+.bloc_recommandations
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around; 
+}
+.paragraphe_gauche
 {
     text-align: left;        
     margin-top: auto;    
 }
 
-#paragraphe_droite
+.paragraphe_droite
 {
     text-align: left;
     margin-top: auto;
     margin-bottom: auto;
 }
 
-#photo
+.photo
 {
     border-radius: 100px;
     margin-top: 25px;
     height: 100px;
     width:100px;
+    align-self: center;
 }
 
 .titre_gauche
@@ -120,30 +136,19 @@ h4
     margin-right: 30px;
 }
 
-a /* personnalisation des couleurs des liens */
-{
-   color: cornflowerblue; 
-}
-
-a:hover /* personnalisation des couleurs des liens au survol */
-{
-    color:yellow;
-}
-
-a:visited /* personnalisation des couleurs des liens après clic */
-{
-    color:coral
-}
-
  i.fas, i.far /*Icon Font-Awesome*/
   {
-    color:black;      
+    color:black;    
   }
 
 tr, td
 {
     vertical-align: top;
     padding:15px;
+}
+.td_annee
+{
+    width: 100px;    
 }
 
 .td_alignement
