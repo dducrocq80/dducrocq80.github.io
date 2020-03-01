@@ -68,7 +68,7 @@ article
     text-align: left;    
     background-color: #BDBDBD; /*Couleur Material Design*/
     margin-top: 20px;
-    width:500px;
+    width:20%;
     padding: 10px;
 } 
 
@@ -80,7 +80,7 @@ article
     text-align: left;
     vertical-align: top;
     margin-top: 20px;        
-    width:500px;
+    width:auto;
     padding: 10px;
 } 
 
@@ -219,7 +219,7 @@ tr, td
     .afficher_masquer_nom
     {
         display:inherit;
-        visibility: inherit;
+        visibility: visible;
         font-size: 30px;
         height: 15px;
         margin-bottom: auto;
@@ -231,7 +231,7 @@ tr, td
     .afficher_masquer_titre
     {
         display:inherit;
-        visibility: inherit;
+        visibility: visible;
         margin-left: auto;
         margin-right: auto;
     }
@@ -257,6 +257,59 @@ tr, td
         vertical-align: top;
         margin-top: 20px;        
         width: auto;
+        padding: 10px;
+    } 
+
+}
+
+@media screen and (max-width: 1440px) /* Règles CSS petites fenetres */
+{
+    h1, h2
+    {
+        display: none;
+    }
+
+    .afficher_masquer_nom
+    {
+        display:inherit;
+        visibility: visible;
+        font-size: 30px;
+        height: 15px;
+        margin-bottom: auto;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .afficher_masquer_titre
+    {
+        display:inherit;
+        visibility: visible;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .bloc_gauche
+    {     
+        display:inline-flex;        
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;    
+        background-color: #BDBDBD; /*Couleur Material Design*/
+        margin-top: 20px;
+        width: 30%
+        padding: 10px;
+    } 
+
+    .bloc_droite
+    {     
+        display:inline-flex;        
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        vertical-align: top;
+        margin-top: 20px;        
+        width: 70%;
         padding: 10px;
     } 
 
