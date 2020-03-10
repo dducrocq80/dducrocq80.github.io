@@ -68,7 +68,7 @@ article
     text-align: left;    
     background-color: #BDBDBD; /*Couleur Material Design*/
     margin-top: 20px;
-    width:20%;
+    width:500px;
     padding: 10px;
 } 
 
@@ -80,7 +80,7 @@ article
     text-align: left;
     vertical-align: top;
     margin-top: 20px;        
-    width:auto;
+    width:500px;
     padding: 10px;
 } 
 
